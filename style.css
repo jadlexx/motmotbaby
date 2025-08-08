@@ -6,9 +6,11 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-image: url("lovey.png"); 
-    background-position: center;
+    background-image: url("lovey.png");
+    background-position: center center;
     background-repeat: no-repeat;
+    background-size: cover; /* Makes the background image responsive */
+    background-attachment: fixed; /* Optional: Keeps BG fixed while scrolling */
     color: #c76583;
     min-height: 100vh;
     display: flex;
