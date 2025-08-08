@@ -7,9 +7,9 @@ function toggleEnvelope() {
 
     if (isOpen) {
         envelope.classList.add('open');
-        music.play(); // 🔊 Play music when envelope opens
+        music.play();
     } else {
         envelope.classList.remove('open');
-        // Don't pause or reset music — it continues playing
+        music.pause();
     }
 }
